@@ -1,0 +1,4 @@
+# @package _group_
+depth: 2
+hidden_dims: 30
+lr: 1.e-3

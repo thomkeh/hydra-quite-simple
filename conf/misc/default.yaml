@@ -1,0 +1,4 @@
+# @package _group_
+output_dir: "./experiments"
+seed: 42
+use_wandb: true

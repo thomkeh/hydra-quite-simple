@@ -1,0 +1,8 @@
+# this is the main config file
+defaults:
+  - hydra/launcher: basic  # use ray launcher to run things in parallel
+
+  # default config files
+  - data: adult  # no need to use `.yaml` here; this will load `conf/data/adult.yaml`
+  - model: shallow  # `conf/model/shallow.yaml`
+  - misc: default  # `conf/misc/default.yaml`
