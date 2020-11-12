@@ -41,7 +41,7 @@ class MiscConfig:  # flags that didn't fit in any of the other categories
 class Config:  # base config schema
     data: DatasetConfig = MISSING  # put config files for this into `conf/data/`
     model: ModelConfig = MISSING  # put config files for this into `conf/model/`
-    misc: MiscConfig = MISSING  # put config files for this into `conf/other/`
+    misc: MiscConfig = MISSING  # put config files for this into `conf/misc/`
 
 
 # register `Config` to be the schema for the main config
